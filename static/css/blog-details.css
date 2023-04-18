@@ -1,0 +1,44 @@
+
+.elementor-widget-container p {
+    font-size: 100% !important;
+    
+}
+
+.elementor-widget-container p strong {
+    font-weight: 500 !important;
+    color: #000;
+    
+}
+
+.elementor-widget-container p {
+    text-align: justify;
+    color: black;
+    font-weight: 400 !important;
+    
+}
+
+.post-navigation {
+    margin: 0;
+    padding: 2em 0 2rem;
+    border-top: 1px solid #00a97a;
+}
+
+.blog-link {
+    color: #00a97a;
+}
+
+.blog-p .blog-p-p {
+    color:#00a97a !important; 
+    font-weight: 400 !important;
+}
+
+.blog-p h1 {
+    color: #006d95; 
+    font-size: 1.875rem !important; 
+    font-weight: 400 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #006d95 !important;
+}
