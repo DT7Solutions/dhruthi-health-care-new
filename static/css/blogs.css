@@ -1,3 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #000000;
+    background-color: #fefefe;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+  }
+
+
 .blog-link-p {
-    color: #00a97a !important;
+    color: #0b00a9 !important;
 }
+/* code for card buttons */
+.buttons {
+    background-color: #5eb5d7;
+    width: 130px;
+    height: 33px;
+    transition: 2sec;
+    border-style: none;
+    position: absolute;
+    bottom:5%;
+    margin-left: -15px;
+    
+}
+/* code for card button link */
+#anchor {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    background-color: #04a67a;
+}
+/* code for 3rd card */
+#card3 {
+    text-transform: capitalize;
+}
+
+.card {
+    border: non !important;
+    position: relative;
+   
+}
+.card .card-title{
+    text-transform: capitalize !important;
+    margin-left: -15px;
+    /* overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; */
+}
+
+.card  .card-body {
+    height: 150px;
+}
+.p-class h1 {
+    font-size:35px !important;
+    font-weight:600px !important;
+   
+   
+ }
+ .p-class h3{
+
+    font-size:25px !important;
+    color:#006da3;
+
+ } 
+ /* justify property for do regulardental cheackup blog details page */
+ .doregular {
+    text-align:justify;
+ }
+
+
+ /* marging blog coner */
+
+ .blog-banner-img{
+    display: flex !important;
+    justify-content: center !important;
+
+ }
+
+ .blog-banner-contet{
+    display: flex !important;
+    justify-content: center !important;
+
+ }
