@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif !important;
@@ -12,16 +13,70 @@ body {
 .blog-link-p {
     color: #0b00a9 !important;
 }
+
+.t-pad {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.background-overlay {
+    background-image: url(blog-images/dhruthi-blog-health-care-hospital-banner-image.png);
+    width: 100%;
+    height: 170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-overlas {
+    background-image: url(blog-images/dhruthi-blog-corona-banner-image.png);
+    width: 100%;
+    height: 170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-overlayd {
+    background-image: url(blog-images/dhruthi-blog-health-care-banner-image.png);
+    width: 100%;
+    height: 170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-overlaid {
+    background-image: url(blog-images/dhruthi-blog-health-banner-image.png);
+    width: 100%;
+    height: 170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-item a:hover {
+    background-color: #00A97A !important;
+    color: #ffffff !important;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #006D95 !important;
+    border-color: #fff !important;
+}
+
 /* code for card buttons */
 .buttons {
-    background-color: #5eb5d7;
+    background-color: #006D95;
     width: 130px;
     height: 33px;
     transition: 2sec;
     border-style: none;
     position: absolute;
     bottom:5%;
-    margin-left: -15px;
+    /* margin-left: -15px; */
     
 }
 /* code for card button link */
@@ -45,7 +100,7 @@ body {
 }
 .card .card-title{
     text-transform: capitalize !important;
-    margin-left: -15px;
+    /* margin-left: -15px; */
     /* overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -55,12 +110,20 @@ body {
 .card  .card-body {
     height: 150px;
 }
-.p-class h1 {
-    font-size:35px !important;
-    font-weight:600px !important;
-   
-   
+h1 {
+    font-family: 'Poppins', sans-serif !important;
+    color: #006d95 !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
  }
+
+ .card-body h5 {
+    font-family: 'Poppins', sans-serif !important;
+    color: #006d95 !important;
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+ }
+
  .p-class h3{
 
     font-size:25px !important;
