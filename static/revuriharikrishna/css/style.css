@@ -18,14 +18,14 @@ h6 {
 }
 
 a {
-    color: #313131;
+    color: #009539;
     transition: .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #EF233C;
+    color: #006b94;
     outline: none;
     text-decoration: none;
 }

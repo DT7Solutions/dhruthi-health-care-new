@@ -149,3 +149,15 @@ h1 {
     justify-content: center !important;
 
  }
+
+ .card-body h5 a {
+    color: #006D95 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.card-body h5 a:hover {
+    color: #04A67A !important;
+    /* text-decoration: none;
+    background-color: transparent; */
+}
