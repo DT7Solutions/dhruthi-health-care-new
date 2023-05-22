@@ -33,6 +33,30 @@ $(".client_owl-carousel").owlCarousel({
         }
     }
 });
+// client section owl carousel
+$(".doctor-carousel").owlCarousel({
+    loop: true,
+    margin: 0,
+    dots: false,
+    nav: true,
+    navText: [],
+    autoplay: true,
+   
+    autoplayHoverPause: true,
+    
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
+
 
 
 // client section owl carousel

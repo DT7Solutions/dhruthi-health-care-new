@@ -1162,6 +1162,14 @@ a:focus {
       display: block;
       margin-bottom: 10px;
   }
+  
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+    .owl-carousel .owl-item img{
+      width:311px!important;
+      height:300px!important;
+    }
   }
  
   @media screen and (min-width: 1024px) and (max-width:1600px) {
