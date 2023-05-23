@@ -1193,3 +1193,8 @@ a:focus {
   font-size: 40px;
   padding-left: 10px;
 }
+.text-large{
+  font-size: x-large !important;
+  font-weight: 600!important;
+  color:whitesmoke!important;
+}
