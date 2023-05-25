@@ -1198,3 +1198,7 @@ a:focus {
   font-weight: 600!important;
   color:whitesmoke!important;
 }
+
+.modal-header {
+  border-bottom: 0px!important;
+}
