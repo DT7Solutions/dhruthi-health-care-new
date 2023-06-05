@@ -10,3 +10,20 @@
 body a{
     text-decoration: none !important;
 }
+.card .card-body {
+    height: 150px!important;
+}
+.card-body h5 a {
+    color: #006D95 !important;
+    text-decoration: none;
+    background-color: transparent!important;
+}
+.buttons {
+    background-color: #006D95;
+    width: 130px;
+    height: 33px;
+    transition: 2sec;
+    border-style: none;
+    position: absolute;
+    bottom: 5%;
+}
